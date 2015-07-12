@@ -1,0 +1,56 @@
+body {
+  background: /* top, transparent red, faked with gradient */ url('../img/bg.png');
+}
+.layer {
+    background: url('../img/dark-mosaic.png'), linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#logo {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+h1 {
+  color: rgba(255,255,255,.6);
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 62px;
+}
+.button-list {
+  margin-top: 50px;
+}
+.button {
+  background: rgba(0,0,0,.6);
+  text-align: center;
+  font-size: 100px;
+  color: rgba(255,255,255,.5);
+  padding-top: 15px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+.button-title {
+  font-size: 52px;
+  display: block;
+  padding-bottom: 30px;
+}
+.button:hover,
+.button:focus
+ {
+  text-decoration: none;
+  background: #1565C0;
+}
+.button-link:hover,
+.button-link:focus
+ {
+  text-decoration: none;
+}
