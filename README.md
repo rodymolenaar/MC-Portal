@@ -1,7 +1,8 @@
 # MC-Portal
 A free portal template for Minecraft servers.
 
-[Demo] (http://rodymol123.github.io/MC-Portal/)
+[Demo] (http://rodymol123.github.io/MC-Portal/)  
+[Download] (https://github.com/rodymol123/MC-Portal/releases/download/1.0.0/MC-Portal.zip)
 
 ##Still work in progress!
 If you'd like to contribute please fork this repo and create pull-requests.
