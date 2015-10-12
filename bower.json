@@ -4,7 +4,7 @@
   "authors": [
     "Rody Molenaar <rody.molenaar@xtrada.nl>"
   ],
-  "description": "A Free portal webpage for Minecraft servers.",
+  "description": "A Free portal page for Minecraft servers.",
   "keywords": [
     "free",
     "minecraft",
@@ -18,5 +18,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
 }
