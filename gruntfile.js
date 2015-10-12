@@ -16,9 +16,23 @@ module.exports = function(grunt) {
                      },
                      files: {"dist/css/mc-portal.css": "less/mc-portal.less"}
                  }
+             },
+             compress: {
+              main: {
+                options: {
+                  archive: 'MC-Portal.zip'
+                },
+                files: [
+                  {src: ['dist/**'], dest: 'MC-Portal/'}, // includes files in path and its subdirs
+                  {src: ['index.html'], dest: 'MC-Portal/'},
+                  {src: ['README.md'], dest: 'MC-Portal/'},
+                  {src: ['LICENSE'], dest: 'MC-Portal/'}
+                ]
+              }
              }
          });
          grunt.loadNpmTasks('grunt-contrib-less');
          grunt.loadNpmTasks('grunt-contrib-watch');
+         grunt.loadNpmTasks('grunt-contrib-compress');
          grunt.registerTask('default', ['watch']);
      };
